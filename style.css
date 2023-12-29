@@ -176,8 +176,11 @@ svg {
     width: 290px;
     height: 55px;
     margin-left: -10px;
-    font-weight: 500;
     border-radius: 10px;
+}
+
+.sizes div p {
+    font-weight: 500;
 }
 
 .result-details {
