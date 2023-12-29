@@ -19,8 +19,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL  : [Click me]([https://github.com/gopinathfed/Results-summary-component/])
-- Live Site URL : [Click me]([https://gopinathfed.github.io/Results-summary-component/])
+- Solution URL  : [Click me](https://github.com/gopinathfed/Results-summary-component/)
+- Live Site URL : [Click me](https://gopinathfed.github.io/Results-summary-component/)
 
 ## My process
 
