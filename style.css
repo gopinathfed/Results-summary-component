@@ -245,8 +245,9 @@ svg {
 
 /* for mobile view  */
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
 
+   
     /* Change variable values */
 
     :root {
@@ -260,7 +261,7 @@ svg {
     }
 
     .result {
-        max-width: 100%;
+        min-width: 100vw;
         border-top-left-radius: 0;
         border-top-right-radius: 0;
         margin: 0;
@@ -272,7 +273,7 @@ svg {
 
     .result-heading {
         font-size: .85rem;
-        margin-top: 60px;
+        margin-top: 30px;
     }
 
     .actual-mark {
@@ -299,20 +300,33 @@ svg {
     }
 
     .summary {
-        max-width: 100%;
-        padding: 30px;
+        min-width: 100%;
+        padding: 5vw;
         padding-top: 0;
         transform: translateX(0);
         grid-template-rows: 60px 250px 50px;
     }
 
     .summary-heading {
-        margin-left: 0;
+        margin-left: -50px;
+        margin-top: 0;
         font-size: .7rem;
     }
 
     .result-details {
         gap: 10px;
+    }
+
+    .sizes {
+        min-width: 90vw;
+    }
+
+    .result-details {
+        gap: 5px;
+    }
+
+    .continue-button button {
+        min-width: 90vw;
     }
 
 }
